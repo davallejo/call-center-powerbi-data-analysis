@@ -230,6 +230,136 @@ Inicio → Transformar datos → Configuración del origen de datos
 
 ---
 
+## 📊 Análisis de Datos
+
+### 🔎 1. Visión General de KPIs
+
+| Métrica | Valor |
+|---------|-------|
+| 📞 Total de llamadas | 2.000 |
+| ⭐ NPS promedio | 2.98 / 10 |
+| ⏱️ Tiempo promedio de respuesta | 62 segundos |
+| ✅ Tasa de resolución | 50.55% (Sí) vs 49.45% (No) |
+
+#### 🧠 Interpretación
+El comportamiento general evidencia un **problema estructural en la operación del call center**: baja satisfacción del cliente, alta proporción de casos no resueltos y tiempos de atención elevados.
+
+---
+
+### ⚠️ 2. Satisfacción del Cliente (NPS)
+
+- **NPS promedio: 2.98 / 10** — nivel críticamente bajo que indica una experiencia negativa para la mayoría de clientes.
+
+**Posibles causas:**
+- Casos no resueltos en la primera llamada
+- Largos tiempos de espera
+- Ineficiencia en la gestión de agentes
+
+> 💡 **Insight clave:** Existe una fuerte relación entre la **baja tasa de resolución** y el **bajo NPS**.
+
+---
+
+### ⏱️ 3. Tiempo de Respuesta
+
+- **Promedio: 62 segundos** — superior al estándar recomendado de 30–40 segundos.
+
+**Posibles causas:**
+- Asignación ineficiente de llamadas
+- Procesos internos lentos
+- Brechas en la capacitación del personal
+
+> 💡 **Insight:** Un tiempo de respuesta elevado impacta directamente y de forma negativa en la satisfacción del cliente.
+
+---
+
+### 👤 4. Análisis por Agente
+
+#### Volumen de llamadas por agente
+
+| Agente | Llamadas |
+|--------|----------|
+| Sofía Ramírez | 328 |
+| Juan Pérez | 301 |
+| Ana Torres | 282 |
+| Carlos Sánchez | 280 |
+| María López | 280 |
+| Pedro Herrera | 266 |
+| Luis Gómez | 263 |
+
+La distribución es relativamente equilibrada, con una diferencia máxima de ~65 llamadas entre el agente con mayor y menor volumen. Sin embargo, el volumen por sí solo no refleja el desempeño real.
+
+> 💡 **Insight clave:** Es necesario profundizar en el **NPS por agente** y la **tasa de resolución por agente** para identificar el rendimiento individual real y diseñar planes de capacitación dirigidos.
+
+---
+
+### 🏢 5. Distribución por Área
+
+| Área | Llamadas |
+|------|----------|
+| Ventas | 507 |
+| Cancelaciones | 504 |
+| Intercambios | 497 |
+| Reclamos | 492 |
+
+La distribución es muy uniforme: ningún área presenta saturación y la carga operativa está completamente balanceada.
+
+> 💡 **Insight:** El problema no es la carga de trabajo, sino la **eficiencia en la atención** dentro de cada área.
+
+---
+
+### 📅 6. Tendencia Temporal
+
+| Mes | Llamadas |
+|-----|----------|
+| Enero | 153 |
+| Febrero | 163 |
+| Marzo | 169 |
+| Abril | 155 |
+| Mayo | 169 |
+| Junio | 160 |
+| Julio | 165 |
+| Agosto | 163 |
+| Septiembre | 161 |
+| Octubre | 183 |
+| Noviembre | 178 |
+| Diciembre | 181 |
+
+El volumen operativo se mantiene estable durante el año con una variación leve, registrando un incremento notable en el último trimestre (Q4).
+
+> 💡 **Insight:** Se recomienda preparar recursos adicionales para el último trimestre, que concentra los picos de mayor demanda.
+
+---
+
+### ✅ 7. Tasa de Resolución
+
+| Estado | Cantidad | Porcentaje |
+|--------|----------|------------|
+| ✅ Resueltas | ~1.011 | 50.55% |
+| ❌ No resueltas | ~989 | 49.45% |
+
+Una distribución prácticamente 50/50 representa una **ineficiencia operativa significativa**, con impacto directo en recontactos, mayor carga operativa y mala experiencia del cliente.
+
+> 🚨 **Insight clave:** La baja tasa de resolución en primera llamada (FCR) es el **principal problema del negocio** y el driver más importante del bajo NPS.
+
+---
+
+### 🔥 Conclusión General
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│  🔴 PROBLEMAS PRINCIPALES       🟡 ASPECTOS CONTROLADOS        │
+│  ─────────────────────────      ────────────────────────        │
+│  • Baja satisfacción (NPS)      • Distribución equilibrada     │
+│  • Baja tasa de resolución        de llamadas por agente       │
+│  • Tiempos de respuesta         • Estabilidad en el volumen    │
+│    elevados                       operativo anual              │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
 ## 💡 Insights de Negocio
 
 El dashboard permite a supervisores y gerentes generar hipótesis críticas:
@@ -239,6 +369,27 @@ El dashboard permite a supervisores y gerentes generar hipótesis críticas:
 - 🏢 **Carga por Área:** Visualizar qué departamentos reciben más llamadas y redistribuir recursos de forma eficiente.
 - 📅 **Patrones Temporales:** Identificar días y horarios de mayor demanda con la jerarquía de fechas interactiva.
 - ✅ **Tasa de Resolución:** Monitorear el porcentaje de casos efectivamente resueltos vs pendientes en tiempo real.
+
+---
+
+## 🎯 Recomendaciones Estratégicas
+
+### 1. 🏆 Mejorar First Call Resolution (FCR)
+- Capacitación intensiva de agentes en resolución de casos
+- Implementar una base de conocimiento accesible durante la llamada
+
+### 2. ⚡ Reducir Tiempos de Atención
+- Optimización y rediseño de procesos internos
+- Automatización de consultas frecuentes mediante scripts guiados
+
+### 3. 📊 Implementar Medición Avanzada
+- NPS individual por agente
+- Tasa de resolución desglosada por agente y área
+- Tiempo promedio segmentado por tipo de llamada
+
+### 4. 🤖 Automatización
+- Implementación de chatbots para consultas de bajo valor
+- IVR inteligente para enrutamiento optimizado de llamadas
 
 ---
 
