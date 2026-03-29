@@ -109,7 +109,7 @@ Un call center recibe cientos de llamadas al día. Medir la calidad del servicio
 
 | # | Tipo de Visual | Nombre en Dashboard | Descripción |
 |---|---------------|---------------------|-------------|
-| 1 | **Card (KPI)** | Llamadas Totales | Conteo total de atenciones en el período |
+| 1 | **Card (KPI)** | Llamadas Totales | Conteo total de atenciones en el período | 
 | 2 | **Card (KPI)** | Satisfacción Promedio (NPS) | Índice NPS agregado del período |
 | 3 | **Card (KPI)** | Velocidad de Respuesta (S) | Tiempo promedio de respuesta en segundos |
 | 4 | **Gráfico de Anillo** | Estado de la Atención | Distribución entre llamadas resueltas y no resueltas |
@@ -226,6 +226,7 @@ Inicio → Transformar datos → Configuración del origen de datos
 ✅ Hover sobre los gráficos para ver tooltips detallados
 ✅ Publicar en Power BI Service para compartir con el equipo
 ```
+<img width="884" height="495" alt="image" src="https://github.com/user-attachments/assets/4b31450a-be3b-4036-90c8-c39cde663782" />
 
 ---
 
